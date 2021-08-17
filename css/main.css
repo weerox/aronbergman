@@ -4,17 +4,44 @@ html, body {
 }
 
 nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 60px;
 	/*background-color: #005EB8;*/ /* PANTONE 300C */
 	background-color: #006EB6; /* PANTONE 300U */
 }
 
 nav #logo {
-	display: inline-block; /*inline flow-root*/
-	height: 100%;
+	/*display: inline-block;*/ /*inline flow-root*/
+	height: 60px; /* same as nav */
+
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 nav #logo img {
 	height: 40px;
 	margin: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 60px;
+	height: 100%;
+	margin: 0 1em;
+}
+
+nav ul li a {
+	display: block;
+	height: 100%;
+	color: white;
+	text-decoration: none;
 }
