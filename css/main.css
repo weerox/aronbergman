@@ -45,3 +45,16 @@ nav ul li a {
 	color: white;
 	text-decoration: none;
 }
+
+/* Style for listings (i.e. post listings) */
+
+.listing {
+	width: 40em;
+	margin: 0 auto;
+}
+
+.listing div article a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
