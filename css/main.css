@@ -37,19 +37,22 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
+	height: 100%;
+	margin: 0 1em;
+
 	line-height: 60px;
 	font-family: Karla, sans-serif;
 	font-weight: 600;
 	font-size: 1.1em;
-	height: 100%;
-	margin: 0 1em;
+	color: white;
 }
 
 nav ul li a {
 	display: block;
 	height: 100%;
-	color: white;
-	text-decoration: none;
+
+	color: inherit;
+	text-decoration: inherit;
 }
 
 /* Style for listings (i.e. post listings) */
